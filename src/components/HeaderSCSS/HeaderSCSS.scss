@@ -1,0 +1,39 @@
+// $primary-color: blue;
+// $text-important: pink;
+// $text-description-color: silver;
+
+@import '../../Styles/Shared/color.scss';
+
+.first-box{
+    border: 1px solid $primary-color;
+    color: $text-important
+}
+.second-box{
+    border: 1px solid $primary-color;
+    color: $text-description-color
+}
+.third-box{
+    border: 1px solid $primary-color;
+    color: $text-important
+}
+.forth-box{
+    border: 1px solid $primary-color;
+    color: $text-description-color
+}
+
+
+
+.container{
+    background-color: green;
+
+    .row{
+        margin: 20px;
+    }
+}
+
+.button{
+    color: yellow;
+    &:hover{
+        color: red;
+    }
+}
